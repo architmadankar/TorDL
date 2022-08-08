@@ -753,7 +753,7 @@ def set_priority(hash_id):
 
 @app.route('/')
 def homepage():
-   return "<h1>TorDL Online @ <a href='https://telegram.dog/tordl2'>@Telegram-Group</a> By <a href='https://github.com/architmadankar'>Archit</a></h1>"
+   return "<h1>Bot Online @ <a href='https://telegram.dog/tordl2'>@TorDL</a> By <a href='https://github.com/architmadankar'>Archit</a></h1>"
   
 @app.errorhandler(NotFound404Error)
 def page_not_found(e):
